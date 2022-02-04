@@ -1,16 +1,12 @@
 /* 图标 */
 
-@font-face {
-  font-family: 'iconfont';
-  /* project id 669713 */
-  src: url('./font_669713_r7pgq0vmjqc.eot');
-}
-
 /*载入字体*/
 
 @font-face {
   font-family: 'JournalRegular';
-  src: url('../font/CHERI___.TTF');
+  /* src: url('../font/CHERI___.TTF'); */
+  src: url('../font/Mf Love Song.ttf');
+  
   font-weight: normal;
   font-style: normal;
 }
