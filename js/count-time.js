@@ -27,7 +27,8 @@ var countTime = function (target, d, h, m, s) {
  * @return {[type]}   [description]
  */
 var _countTime = function (d, h, m, s) {
-    $('#' + d).text(diff[0]);
+    // 在一起第一天也算第一天 by 品婕
+    $('#' + d+1).text(diff[0]);
     $('#' + h).text(diff[1]);
     $('#' + m).text(diff[2]);
     $('#' + s).text(diff[3]);
